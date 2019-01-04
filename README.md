@@ -1,2 +1,2 @@
 # SudanUprising
-This is a repository to analyse the conversations people are having regarding #SudanUprising
+This project is intending to analyse the conversations people are having about #SudanUprising
