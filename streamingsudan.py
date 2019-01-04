@@ -2,7 +2,7 @@ from tweepy import Stream
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler 
 
-import twitter_credentials
+import twitter_credentials1
 
 class TwitterStreamer():	
 
@@ -35,7 +35,7 @@ class StdOutListener(StreamListener):
 		print(status)
 
 if __name__ == "__main__":
-	hashtags_list = ['SudanUprising', 'SudanRevolts', '#مدن_السودان_تنتفض','#تسقط_بس']
+	hashtags_list = ['SudanUprising', 'SudanRevolts', 'مدن_السودان_تنتفض','تسقط_بس']
 	extractedTweets_filename = "tweets.json"
 	twitterStreamer = TwitterStreamer()
 	twitterStreamer.stream_tweets(extractedTweets_filename,hashtags_list)
